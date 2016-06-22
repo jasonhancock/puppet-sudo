@@ -2,11 +2,11 @@
   "name": "jasonhancock-golang",
   "version": "1.0.0",
   "author": "Jason Hancock",
-  "summary": "Installs and the Go runtime",
+  "summary": "Sudoers",
   "license": "Apache-2.0",
-  "source": "https://github.com/jasonhancock/puppet-golang",
-  "project_page": "https://github.com/jasonhancock/puppet-golang",
-  "issues_url": "https://github.com/jasonhancock/puppet-golang/issues",
+  "source": "https://github.com/jasonhancock/puppet-sudo",
+  "project_page": "https://github.com/jasonhancock/puppet-sudo",
+  "issues_url": "https://github.com/jasonhancock/puppet-sudo/issues",
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
   ],
