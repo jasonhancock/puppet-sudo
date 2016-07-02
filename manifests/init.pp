@@ -27,7 +27,7 @@ class sudo {
 
   if $::environment == 'vagrant' {
     sudo::conf { 'vagrant':
-      content => '%vagrant ALL=(ALL) NOPASSWD: ALL',
+      content => "Defaults:vagrant !requiretty\n%vagrant ALL=(ALL) NOPASSWD: ALL",
     }
   }
 }
