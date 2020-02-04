@@ -1,9 +1,11 @@
 # Class: sudo
 #
 # Sets up sudo.
-class sudo {
+class sudo (
+  $package_ensure='installed',
+) {
   package { 'sudo':
-    ensure  => installed,
+    ensure  => $package_ensure,
   }
 
   file { '/etc/sudoers.d':

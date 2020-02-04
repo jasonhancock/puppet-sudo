@@ -1,6 +1,6 @@
 {
-  "name": "jasonhancock-golang",
-  "version": "1.0.0",
+  "name": "jasonhancock-sudo",
+  "version": "1.0.1",
   "author": "Jason Hancock",
   "summary": "Sudoers",
   "license": "Apache-2.0",
